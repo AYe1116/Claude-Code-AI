@@ -38,7 +38,7 @@
 
 1. **安装 Claude Code**：`npm install -g @anthropic-ai/claude-code`
 2. **配置 API 端点**：在 `~/.claude/settings.json` 中填入：
-   ```json
+``` json
   {
   "env": {
     "ANTHROPIC_BASE_URL": "https://api.deepseek.com/anthropic",
@@ -48,7 +48,7 @@
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-v4-pro"
   }
 }
-   ```
+```
 
 启动：终端输入 claude
 
