@@ -45,3 +45,8 @@
        "ANTHROPIC_AUTH_TOKEN": "你的DeepSeek-API-Key"
      }
    }
+   ```
+
+启动：终端输入 claude
+
+⚠️ 注意：用 /v1 端点会报 Content block is not a text block，必须用 /anthropic 端点。
