@@ -1,0 +1,9 @@
+# Obsidian 配置目录
+.obsidian/
+
+# 临时/非日志文件
+*.html
+
+# 系统文件
+Thumbs.db
+.DS_Store
