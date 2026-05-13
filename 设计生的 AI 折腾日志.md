@@ -351,6 +351,33 @@
 - 知乎：✅ 已发布
 - GitHub：✅ 仓库完整（README + LICENSE + 规则书 + 日志 + 启动指南）
 
+## 2026-05-14 工作日志
+
+### 第二篇文章初稿完成
+- 标题：《Claude Code 进阶踩坑：VS Code 插件 + 多模型切换实践》
+- 完成初稿写作，经多轮修改最终定稿
+- 编辑过程中暴露了"写作时擅自加不属于标题范围的内容"的问题（塞了 MCP/Skills），触发了规则迭代
+
+### 规则迭代 v2.4 → v2.5
+- 新增第十五条"范围管理原则"：
+  - 写作/输出场景：以标题为边界做范围检验
+  - 回答场景：问什么答什么，不自行扩展
+  - 执行场景：不随意扩大任务范围
+  - 工具推荐场景：匹配实际需求，不因自己刚接触就优先推荐
+
+### Skills 生态探索
+- 安装 MCP 服务器：mcp-skills（@koderspa/mcp-skills）
+- 通过 skills.sh 安装多个 skills：
+  - writing-plans（obra/superpowers）— 任务拆解
+  - git-commit（github/awesome-copilot）— 规范提交信息
+  - obsidian-skills（kepano/obsidian-skills，5个）— Obsidian 格式支持
+- 踩坑：supercent-io/skills-template@technical-writing 仓库已不存在
+
+### 自检与修正
+- 写作中暴露"范围管理"问题后，进行了完整的自检
+- 修掉了文章中的 MCP/Skills 跑题内容、笔误、配置不一致等问题
+- 统一了 ~/.claude/settings.json 中的模型名称大小写
+
 ### 对话健康度评估
 - 当前对话窗口已持续 5 天，信息密度极高
 - 文件上传功能已因客户端性能保护而降级
