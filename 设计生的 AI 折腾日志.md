@@ -340,3 +340,32 @@
 ### 知乎文章链接
 - 《一个初学者的 Claude Code 配置踩坑记录》
 - 链接：https://zhuanlan.zhihu.com/p/2037937098905368136
+
+## 2026-05-13 17:00 工作日志
+
+### Git 仓库与坚果云同步状态确认
+
+#### Git 仓库同步
+- 当前工作目录：`/d/OB仓库/Obsidian Vault`
+- Git 仓库根目录：`D:/OB仓库/Obsidian Vault`
+- 本地分支已与远程 `origin/main` 同步
+- 最新提交：`d60bf64` - 更新待办事项：标记知乎链接补全已完成
+
+#### 坚果云同步状态
+- 坚果云同步文件夹：`C:\Users\Administrator\Nutstore\1\Obsidian Vault (1)`
+- 发现两个 Obsidian Vault 文件夹：
+  - `Obsidian Vault`（空文件夹，已从云端解绑）
+  - `Obsidian Vault (1)`（包含所有文件，正在同步）
+- 已删除空的 `Obsidian Vault` 文件夹
+- 坚果云文件夹 2 已与 Git 仓库文件完全同步
+
+#### 同步架构确认
+- **Git 仓库**：负责版本控制和 GitHub 同步
+- **坚果云**：负责手机 ↔ 电脑之间的笔记内容同步
+- 两者互不干扰，各司其职
+
+#### 待办事项更新
+- [x] 确认 Git 仓库与 GitHub 同步状态 → 已完成
+- [x] 确认坚果云同步状态 → 已完成
+- [x] 删除空的 Obsidian Vault 文件夹 → 已完成
+- [ ] 重命名 Obsidian Vault (1) 为 Github program 1 → 坚果云限制，无法直接重命名
