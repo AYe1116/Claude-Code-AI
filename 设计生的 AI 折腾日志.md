@@ -269,3 +269,46 @@
   - 待办清空或暂无想法时，基于日志线索给出 2-3 个具体选项
   - 看了选项仍无法决定，可基于已有方向帮忙梳理，但新方向由本人提出
 - 已同步更新 GitHub 仓库中的规则书文件
+
+## 2026-05-13 00:15 工作日志
+
+### 技术操作：将 GitHub 仓库克隆到本地
+- 在 VS Code 中通过 `Git: Clone` 将 `AYe1116/Claude-Code-AI` 仓库克隆到本地 `D:\Github仓库\Claude-Code-AI`
+- 遇到的坑：科学上网软件只代理浏览器，不代理终端 Git，克隆时连接 github.com 端口 443 失败
+- 解决方法：通过 `git config --global http.proxy http://127.0.0.1:端口号` 让 Git 走代理，成功克隆
+
+### 技术操作：打通 Obsidian 与 GitHub 仓库
+- 将本地 Obsidian 笔记库（D:/OB仓库/Obsidian Vault/）直接变更为 Git 仓库并关联到 GitHub 远程仓库 AYe1116/Claude-Code-AI
+- 核心操作：复制 .git 到 Obsidian Vault → 添加 .gitignore 排除 .obsidian、临时文件 → 处理文件重命名 → 配置 Git 身份 → 提交并推送
+- 旧克隆目录 D:/Github仓库/Claude-Code-AI/ 已退化为普通文件夹，可以删除
+- 以后工作流：在 Obsidian 编辑 → 保存 → 用 VS Code 打开 OB仓库/Obsidian Vault → 提交并推送，30 秒完成同步
+
+### 认知沉淀
+- 理解了 Git 克隆、提交、推送的基本概念，并掌握了在 VS Code 内使用 Git 的完整工作流
+- 明确了本地 Obsidian 库与 GitHub 仓库的关系：“一个 Obsidian 库 = 一个 GitHub 仓库 = 一个项目/主题”
+- 掌握了科学上网环境下 Git 走代理的方法（git config --global http.proxy）
+- 理解了 .gitignore 的作用：排除不需要同步的配置文件、临时文件，保护隐私
+
+### 决策与规则
+- 确立 GitHub 改名策略：等小米百亿计划审核结果出来后再修改 GitHub 用户名，避免旧链接失效影响申请评估
+- 旧用户名 AYe1116 当前保持不变，审核通过或拒绝后再统一修改 LICENSE、仓库链接、文章底部的引用
+
+### 知识验收
+- 现在可以独立完成：本地 Obsidian 文件 → VS Code 提交 → 推送到 GitHub 的全流程
+- 能解释 GitHub 仓库的 LICENSE、Topics 标签、README 的作用
+
+## 2026-05-13 00:25 工作日志
+
+### 认知沉淀：理清 Obsidian、坚果云、GitHub 的职责分离
+- Obsidian + Nutstore Sync：负责手机 ↔ 电脑之间的笔记内容同步，保证两端文件一致
+- Git + VS Code：负责电脑 ↔ GitHub 之间的版本控制和公开推送
+- 两者互不干扰：Obsidian 不管 Git 操作，Git 不管文件来源，各司其职
+- 日常操作流程：手机记完 → 电脑开机自动同步 → VS Code 提交并推送，两步走
+
+## 2026-05-13 14:00 工作日志
+
+### 规则迭代 v2.3 → v2.4
+- 新增《硬件与系统折腾记录规则》v1.1，作为与 AI 协作规则并行的独立规则文件
+- 该规则明确了硬件/系统对话的适用范围、AI 角色边界（记录助手 + 排查参谋）、操作预判要求、故障排查决策树、安全隐患预警
+- 核心原则：硬件/系统对话与 AI 协作对话分开记、分开管，互不套用
+- 基于此次实践，新增规则书第十四条“新规则制定规范”：未来为新场景制定规则文件时，必须定义适用范围、AI 角色边界、与本规则书的关系，避免用身份描述代替规则边界
