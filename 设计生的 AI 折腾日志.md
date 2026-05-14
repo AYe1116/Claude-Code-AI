@@ -423,3 +423,13 @@
 - 写作中暴露"范围管理"问题后，进行了完整的自检
 - 修掉了文章中的 MCP/Skills 跑题内容、笔误、配置不一致等问题
 - 统一了 ~/.claude/settings.json 中的模型名称大小写
+
+[ ] 探索 RSS 订阅：搭建个人技术情报网
+  [ ] 电脑端：下载安装 Fluent Reader，熟悉界面和基本操作
+  [ ] 添加订阅源测试：
+    - 自己的 GitHub 仓库（https://github.com/AYe1116/Claude-Code-AI）
+    - claude-monitor 的 releases 更新
+    - DeepSeek 服务状态页（status.deepseek.com）
+  [ ] 手机端：安装 Fluent Reader Lite 或 Feedly
+  [ ] 实现电脑 ↔ 手机阅读进度同步
+  [ ] 后续：遇到其他想追的博客/项目，随手加订阅源
