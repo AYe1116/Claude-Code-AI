@@ -33,8 +33,8 @@
 - CSDN：[《一个初学者的 Claude Code 配置踩坑记录》](https://blog.csdn.net/2604_96046012/article/details/160987982)
 - 掘金：[《一个初学者的 Claude Code 配置踩坑记录》](https://juejin.cn/post/7638456083297615935)
 - 知乎：[《一个初学者的 Claude Code 配置踩坑记录》](https://zhuanlan.zhihu.com/p/2037937098905368136)
-- CSDN：[《Claude Code 进阶踩坑：VS Code 插件 + 多模型切换实践》](待发布后更新链接)
-- 知乎：[《Claude Code 进阶使用：如何在 VS Code 中切换不同 API 提供商的模型？》](待发布后更新链接)
+- CSDN：[《Claude Code 进阶踩坑：VS Code 插件 + 多模型切换实践》](https://blog.csdn.net/2604_96046012/article/details/161120160)
+- 知乎：[《Claude Code 进阶使用：如何在 VS Code 中切换不同 API 提供商的模型？》](https://zhuanlan.zhihu.com/p/2038695845307098311)
 
 ## ⚡ 快速上手
 

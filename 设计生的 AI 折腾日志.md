@@ -421,7 +421,9 @@
 
 ### 第二篇文章发布完成
 - 标题：《Claude Code 进阶踩坑：VS Code 插件 + 多模型切换实践》
-- 已发布平台：CSDN、知乎
+- 已发布平台：
+  - CSDN：https://blog.csdn.net/2604_96046012/article/details/161120160
+  - 知乎：https://zhuanlan.zhihu.com/p/2038695845307098311
 - 掘金账号受限处理中，已给客服发邮件
 - 文章已同步到 GitHub 仓库
 
@@ -448,3 +450,15 @@
   - [ ] 手机端：安装 Fluent Reader Lite 或 Feedly
   - [ ] 实现电脑 ↔ 手机阅读进度同步
   - [ ] 后续：遇到其他想追的博客/项目，随手加订阅源
+
+## 2026-05-15 19:30 工作日志
+
+### 第二篇文章链接更新完成
+- CSDN：https://blog.csdn.net/2604_96046012/article/details/161120160
+- 知乎：https://zhuanlan.zhihu.com/p/2038695845307098311
+
+### RSS 订阅探索（电脑端已完成）
+- 安装 Fluent Reader（Windows 电脑端）
+- 添加 2 个测试订阅源：GitHub 仓库 + DeepSeek 服务状态
+- 整理中文 RSS 订阅源推荐列表（V2EX、阮一峰、机器之心、掘金等）
+- 手机端暂缓处理
