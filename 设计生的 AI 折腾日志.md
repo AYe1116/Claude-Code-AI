@@ -462,3 +462,35 @@
 - 添加 2 个测试订阅源：GitHub 仓库 + DeepSeek 服务状态
 - 整理中文 RSS 订阅源推荐列表（V2EX、阮一峰、机器之心、掘金等）
 - 手机端暂缓处理
+
+## 2026-05-16 工作日志
+
+### AI 协作工作流优化（全部设置调优）
+
+#### 1. VS Code 设置深度调优
+- Claude插件：maxTokens=8192, temperature=0.3
+- 编辑器优化：Consolas 14px、行高1.5、自动换行、光标平滑动画
+- 行为优化：自动保存（1秒延迟）、格式化粘贴
+- 主题：Default Dark+，图标：VS Seti
+- Git：智能提交、自动获取
+
+#### 2. Claude Code 设置深度调优
+- autoApprove: true（自动批准权限，不再弹窗确认）
+- maxTokens: 8192（输出长度限制）
+- temperature: 0.3（创造性调节）
+- customInstructions: 自定义指令（思考过程使用中文、遵循规则、主动追踪待办）
+
+#### 3. 快捷键冲突解决
+- 原快捷键 Ctrl+Shift+C/A/R 与 VS Code 默认功能冲突（复制行、选择匹配、替换）
+- 改为无冲突组合：Ctrl+Shift+Alt+C/A/R
+- VS Code 与 Claude Code 快捷键统一，避免冲突
+
+### RSS 订阅手机端配置
+- 安装 Feedly（安卓端可用）
+- 发现 Fluent Reader 无安卓版，无法与电脑端同步
+- 决策：保持两端独立（电脑端 Fluent Reader + 手机端 Feedly），手动管理订阅源
+- 整理推荐订阅源列表：GitHub仓库、DeepSeek状态、V2EX、阮一峰博客、机器之心
+
+### 掘金账号受限处理
+- 已联系掘金客服，等待回复（预计1-3个工作日）
+- 待账号恢复后发布第二篇文章
