@@ -417,12 +417,34 @@
 - 修掉了文章中的 MCP/Skills 跑题内容、笔误、配置不一致等问题
 - 统一了 ~/.claude/settings.json 中的模型名称大小写
 
-[ ] 探索 RSS 订阅：搭建个人技术情报网
-  [ ] 电脑端：下载安装 Fluent Reader，熟悉界面和基本操作
-  [ ] 添加订阅源测试：
+## 2026-05-15 18:50 工作日志
+
+### 第二篇文章发布完成
+- 标题：《Claude Code 进阶踩坑：VS Code 插件 + 多模型切换实践》
+- 已发布平台：CSDN、知乎
+- 掘金账号受限处理中，已给客服发邮件
+- 文章已同步到 GitHub 仓库
+
+### 文章修改记录
+- 修正 Token 监控工具选择错误（claude-devtools 桌面端）
+- 修正多模型切换方式（cc-switch 软件，不同 API 提供商之间切换）
+- 修正配置文件说明（命令行默认配置，VS Code 插件配合 cc-switch 切换）
+- 重命名章节标题（多模型切换 → 多 API 提供商切换方案）
+- 添加 cc-switch 详细介绍
+- 添加 VS Code 安装说明
+- 插入 3 张截图
+- 删除重复内容
+- 添加完整结尾（相关文章、GitHub 链接）
+
+### 待办事项更新
+- [x] 修改第二篇文章：VS Code 插件 + 切换其他模型 API 的实践 → 已完成
+- [x] 解决 VS Code 里 Token 显示问题 → 已完成（使用 claude-devtools 桌面端）
+- [ ] 探索 RSS 订阅：搭建个人技术情报网
+  - [ ] 电脑端：下载安装 Fluent Reader，熟悉界面和基本操作
+  - [ ] 添加订阅源测试：
     - 自己的 GitHub 仓库（https://github.com/AYe1116/Claude-Code-AI）
     - claude-monitor 的 releases 更新
     - DeepSeek 服务状态页（status.deepseek.com）
-  [ ] 手机端：安装 Fluent Reader Lite 或 Feedly
-  [ ] 实现电脑 ↔ 手机阅读进度同步
-  [ ] 后续：遇到其他想追的博客/项目，随手加订阅源
+  - [ ] 手机端：安装 Fluent Reader Lite 或 Feedly
+  - [ ] 实现电脑 ↔ 手机阅读进度同步
+  - [ ] 后续：遇到其他想追的博客/项目，随手加订阅源
