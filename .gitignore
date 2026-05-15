@@ -4,6 +4,9 @@
 # 临时/非日志文件
 *.html
 
+# 待办事项（只保存在 Obsidian，不同步到 GitHub）
+待办事项.md
+
 # 系统文件
 Thumbs.db
 .DS_Store
