@@ -330,14 +330,6 @@
 - 删除空的 Obsidian Vault 文件夹，清理残留
 - 重命名 Obsidian Vault (1) → 因坚果云限制，决定搁置，不影响功能
 
-### 待办事项更新
-- [x] CSDN 底部补上 GitHub 链接 → 已完成
-- [x] 掘金底部补上 GitHub 链接 → 已完成
-- [x] 知乎同步发布文章 → 已完成
-- [x] 确认 Git 仓库同步状态 → 已完成
-- [x] 确认坚果云同步状态 → 已完成
-- [🔒] 重命名 Obsidian Vault (1) → 已搁置，不影响使用
-
 ### 平台覆盖现状
 - CSDN：✅ 已发布 + GitHub 链接已补
 - 掘金：✅ 已发布 + GitHub 链接已补
@@ -437,19 +429,6 @@
 - 插入 3 张截图
 - 删除重复内容
 - 添加完整结尾（相关文章、GitHub 链接）
-
-### 待办事项更新
-- [x] 修改第二篇文章：VS Code 插件 + 切换其他模型 API 的实践 → 已完成
-- [x] 解决 VS Code 里 Token 显示问题 → 已完成（使用 claude-devtools 桌面端）
-- [ ] 探索 RSS 订阅：搭建个人技术情报网
-  - [ ] 电脑端：下载安装 Fluent Reader，熟悉界面和基本操作
-  - [ ] 添加订阅源测试：
-    - 自己的 GitHub 仓库（https://github.com/AYe1116/Claude-Code-AI）
-    - claude-monitor 的 releases 更新
-    - DeepSeek 服务状态页（status.deepseek.com）
-  - [ ] 手机端：安装 Fluent Reader Lite 或 Feedly
-  - [ ] 实现电脑 ↔ 手机阅读进度同步
-  - [ ] 后续：遇到其他想追的博客/项目，随手加订阅源
 
 ## 2026-05-15 19:30 工作日志
 
