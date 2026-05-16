@@ -4,6 +4,13 @@
 # 待办事项（只保存在 Obsidian，不同步到 GitHub）
 待办事项.md
 
+# 本地 AI 配置（不在 GitHub 上暴露）
+.claude/
+.agents/
+
+# 备份目录
+backup/
+
 # 系统文件
 Thumbs.db
 .DS_Store
