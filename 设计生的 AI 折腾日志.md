@@ -472,3 +472,22 @@
 - 待账号恢复后发布第二篇文章
 
 - 2026-05-16：验证 git-commit Skill 是否正常
+
+## 2026-05-16 17:34 工作日志
+
+### 技能清单补全与规则新增
+
+#### 1. 发现并记录遗漏的 github-issues 技能
+- 用户指出《已装技能清单.md》中缺少 github-issues 技能
+- 经搜索，该技能位于 `C:\Users\Administrator\AppData\Local\Temp\awesome-copilot\skills\github-issues`
+- 此前安装 awesome-copilot 技能包时附带安装，位置与独立安装的 `.agents\skills` 不同
+- 已补记到《已装技能清单.md》，并提交 git commit
+
+#### 2. 认识 awesome-copilot 技能集
+- awesome-copilot（`github/awesome-copilot`）是一个技能集合仓库，安装在 Temp 目录下
+- 除 github-issues 外还包含项目管理、问题创建等技能
+- 技能来源信息已同步更新到清单中
+
+#### 3. 规则书新增第十六条
+- 新增"十六、MCP 与 Skill 使用规范"
+- 规定：每次安装新 Skill 后，主动更新"已装技能清单.md"，并在对话中提醒用户清单已更新
