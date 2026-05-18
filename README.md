@@ -5,7 +5,7 @@
 
 ![CI](https://github.com/AYe1116/Claude-Code-AI/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Last Updated](https://img.shields.io/badge/last%20update-2026--05--16-brightgreen)
+![Last Updated](https://img.shields.io/badge/last%20update-2026--05--18-brightgreen)
 
 ---
 
@@ -24,6 +24,8 @@
   *Observe → Diagnose → Legislate → Verify — rules evolve through real conversations*
 - **工具链集成 / Toolchain Integration**：MCP 协议连接微信消息、Obsidian 设计灵感库、GitHub 自动备份
   *MCP protocol bridging WeChat messages, Obsidian design library, and GitHub auto-backup*
+- **多平台兼容 / Multi-Platform**：同一套规则体系在 Claude Code 和 Reasonix Code 上均可运行
+  *Same rule system runs on both Claude Code and Reasonix Code*
 
 ---
 
@@ -41,7 +43,8 @@
 
 ## 技术栈 / Tech Stack
 
-- **AI 终端 / AI Terminal**：Claude Code + VS Code 插件 / VS Code extension
+- **AI 终端 / AI Terminal**：Reasonix Code（主力）+ Claude Code + VS Code 插件
+  *Reasonix Code (primary) + Claude Code + VS Code extension*
 - **底层模型 / Underlying Model**：DeepSeek 官方 API / Official DeepSeek API（deepseek-v4-pro / deepseek-v4-flash）
 - **笔记系统 / Note System**：Obsidian + 坚果云 Nutstore Sync（手机/电脑同步 / Mobile & Desktop sync）
 - **AI 工具链 / AI Toolchain**：MCP 协议 / MCP Protocol + skills.sh 技能生态 / Skills Ecosystem + 微信消息桥接 / WeChat Message Bridge
@@ -51,7 +54,18 @@
 
 ## 环境配置 / Setup
 
-如果你也想用 DeepSeek API 驱动 Claude Code：
+### 在 Reasonix Code 中使用
+
+Reasonix Code 原生支持 DeepSeek API，接入即可使用。本项目的规则和日志可直接跨会话复用——Reasonix 的 `remember` 机制会自动加载项目记忆，新会话无需手动对齐。
+
+*Reasonix Code natively supports the DeepSeek API — just connect and go. All rules and logs in this project carry across sessions automatically via Reasonix's `remember` mechanism.*
+
+---
+
+### 用 Claude Code + DeepSeek API 驱动
+
+如果你使用 Claude Code：
+*If you'd like to drive Claude Code with DeepSeek API:*
 *If you'd like to drive Claude Code with DeepSeek API:*
 
 1. **安装 Claude Code / Install Claude Code**
