@@ -114,3 +114,4 @@ Reasonix Code 原生支持 DeepSeek API，接入即可使用。本项目的规�
 这套方法论的核心思想：AI 不是用来"聊天"的，而是用来"协作"的。把每一次有价值的对话沉淀下来，AI 就会越来越懂你。
 
 *The core philosophy: AI isn't just for "chatting" — it's for "collaborating." Sink every valuable conversation into the system, and AI will understand you better over time.
+
