@@ -1,4 +1,4 @@
-# AI 折腾日志 / AI Tinkering Log
+# AI 学习日志 / AI Learning Log
 
 > 一个非科班生的 AI 协作系统全记录——从零配通 Claude Code，到建立长效记忆体系，再到公开发布的全过程。
 > *A complete record of a non-CS student's AI collaboration system — from scratch-configuring Claude Code, to building a long-term memory system, to publishing publicly.*
@@ -32,7 +32,7 @@
 | 文件 / File | 作用 / Purpose |
 | :--- | :--- |
 | `通用协作规则.md` | 17 条协作规则 v2.5 / 17 collaboration rules v2.5 |
-| `设计生的 AI 折腾日志.md` | 完整学习记录 / Full learning log by timeline |
+| `学习日志.md` | 完整学习记录 / Full learning log by timeline |
 | `CC 排坑速查表.md` | Claude Code 排坑 13 条 / 13 troubleshooting tips for Claude Code |
 | `人性化协作启动指南.md` | 新会话五步初始化流程 / 5-step session initialization guide |
 | `已装技能清单.md` | Skills 和 MCP 服务器安装记录 / Installed skills & MCP servers log |
@@ -94,9 +94,9 @@
 
 ## 关于我 / About Me
 
-非计算机专业在读，英语基础较弱，但对电脑数码有浓厚兴趣。这套 AI 协作系统是在 AI 的辅助下从零建起来的——我用 AI 帮我排查配置问题，再把自己踩的坑和总结的规则回馈给 AI，形成正向循环。
+目前大一在读，非计算机科班，英语基础较弱，但对电脑数码有浓厚兴趣。这套 AI 协作系统是在 AI 的辅助下从零建起来的——我用 AI 帮我排查配置问题，再把自己踩的坑和总结的规则回馈给 AI，形成正向循环。
 
-*I'm a non-CS student with limited English but a strong passion for tech. This AI collaboration system was built from zero with AI assistance — I use AI to debug config issues, then feed my learnings and rules back to the AI, creating a positive feedback loop.*
+*I'm a freshman (non-CS major) with limited English but a strong passion for tech. This AI collaboration system was built from zero with AI assistance — I use AI to debug config issues, then feed my learnings and rules back to the AI, creating a positive feedback loop.*
 
 这套方法论的核心思想：AI 不是用来"聊天"的，而是用来"协作"的。把每一次有价值的对话沉淀下来，AI 就会越来越懂你。
 
