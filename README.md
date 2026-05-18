@@ -66,7 +66,6 @@ Reasonix Code 原生支持 DeepSeek API，接入即可使用。本项目的规�
 
 如果你使用 Claude Code：
 *If you'd like to drive Claude Code with DeepSeek API:*
-*If you'd like to drive Claude Code with DeepSeek API:*
 
 1. **安装 Claude Code / Install Claude Code**
    ```bash
